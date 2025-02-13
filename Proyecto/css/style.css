@@ -13,6 +13,10 @@
     top: 200px;
     z-index: 1;
 }
+body{
+    
+    overflow-x: hidden;
+}
 
 #return{
     padding: 0 1%;
