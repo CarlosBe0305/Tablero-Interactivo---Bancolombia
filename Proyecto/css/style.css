@@ -5,28 +5,37 @@
     text-align: left;
 }
 .background-image {
-    position: fixed;
+    position: absolute;
     transform: rotate(325deg);
     left: -140px;
     top: 200px;
     z-index: 1;
 }
+
 h1{
     font-size: 35px;
     font-weight: bold;}
 h2{
     margin: 0;
+    font-size: 20px;
 }
 h3{
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
     margin: 0;
 }
 h4{
-    font-size: 18px;
+    font-size: 12px;
+    font-weight: bold;
 }
 .container{
-    top: 350px;
+    top: 250px;
     z-index: 2;
     position: relative;
+}
+.form-check-input[type=radio] {
+    border: 3px solid #000000;
+}
+.form-check-label{
+    font-weight: bold;
 }
