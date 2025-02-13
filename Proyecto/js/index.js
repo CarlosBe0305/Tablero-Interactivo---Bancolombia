@@ -1,28 +1,151 @@
-google.charts.load('current',{packages:['corechart']});
-google.charts.setOnLoadCallback(drawChart);
+google.charts.load('current', { packages: ['corechart'] });
+google.charts.setOnLoadCallback(drawChartPersonas);
+google.charts.setOnLoadCallback(drawChartBilletera);
+google.charts.setOnLoadCallback(drawChartBienestarFinanciero);
 
 // Your Function
-function drawChart() {
+function drawChartPersonas() {
 
-    // Set Data
-    const data = google.visualization.arrayToDataTable([
-      ['Contry', 'Mhl'],
-      ['Italy', 55],
-      ['France', 49],
-      ['Spain', 44],
-      ['USA', 24],
-      ['Argentina', 15]
-    ]);
-    
-    // Set Options
-    const options = {
-      title: 'World Wide Wine Production'
-    };
-    
-    // Draw
-    var chart = new google.visualization.ColumnChart(document.getElementById('myChart'));
-    chart.draw(data, options);
-    var chart = new google.visualization.ColumnChart(document.getElementById('myChart2'));
-    chart.draw(data, options);
-    
-    }
+  // Set Data
+  var data = google.visualization.arrayToDataTable([
+    ['Aprobaciones', 'Millones'],
+    ['ABRIL', 55],
+    ['MAYO', 49],
+    ['JUNIO', 44],
+    ['JULIO', 60],
+  ]);
+
+  // Set Options
+  var options = {
+    title: 'Aprobaciones',
+    width: 450,
+    height: 300,
+    bar: { groupWidth: '80%' },
+    colors: ['#7e63a8', '#5fc4e1']
+  };
+
+  // Draw
+  var chart = new google.visualization.ColumnChart(document.getElementById('Aprobaciones-Personas'));
+  chart.draw(data, options);
+
+  var data = google.visualization.arrayToDataTable([
+    ['Genre', 'Fantasy & Sci Fi', 'a', { role: 'annotation' }],
+    ['ABRIL', 10, 24, ''],
+    ['MAYO', 16, 22, ''],
+    ['JUNIO', 28, 19, ''],
+    ['JULIO', 28, 19, '']
+  ]);
+
+  var options = {
+    backgroundColor: 'transparent',
+    width: 450,
+    height: 300,
+    bar: { groupWidth: '80%' },
+    isStacked: true,
+    colors: ['#7e63a8', '#5fc4e1']
+  };
+
+  var chart = new google.visualization.ColumnChart(document.getElementById('Desembolsos-Personas'));
+  chart.draw(data, options);
+
+}
+
+function drawChartBilletera() {
+
+  // Set Data
+  var data = google.visualization.arrayToDataTable([
+    ['Transacciones', ''],
+    ['ABRIL', 55],
+    ['MAYO', 49],
+    ['JUNIO', 44],
+    ['JULIO', 60],
+  ]);
+
+  // Set Options
+  var options = {
+    title: 'Transacciones',
+    width: 450,
+    height: 300,
+    bar: { groupWidth: '80%' },
+    colors: ['#5fc4e1']
+  };
+
+  // Draw
+  var chart = new google.visualization.ColumnChart(document.getElementById('Transacciones-Billetera'));
+  chart.draw(data, options);
+
+  // Set Data
+  var data = google.visualization.arrayToDataTable([
+    ['Comisiones', ''],
+    ['ABRIL', 55],
+    ['MAYO', 49],
+    ['JUNIO', 44],
+    ['JULIO', 60],
+  ]);
+
+  // Set Options
+  var options = {
+    title: 'Comisiones',
+    width: 450,
+    height: 300,
+    bar: { groupWidth: '80%' },
+    colors: ['#5fc4e1']
+  };
+
+  // Draw
+  var chart = new google.visualization.ColumnChart(document.getElementById('Comisiones-Billetera'));
+  chart.draw(data, options);
+
+
+
+}
+
+function drawChartBienestarFinanciero() {
+
+  // Set Data
+  var data = google.visualization.arrayToDataTable([
+    ['Usuarios Activos', ''],
+    ['ABRIL', 55],
+    ['MAYO', 49],
+    ['JUNIO', 44],
+    ['JULIO', 60],
+  ]);
+
+  // Set Options
+  var options = {
+    title: 'Usuarios Activos',
+    width: 450,
+    height: 300,
+    bar: { groupWidth: '80%' },
+    colors: ['#f5b6cd']
+  };
+
+  // Draw
+  var chart = new google.visualization.ColumnChart(document.getElementById('UsuariosAct-BienestarFinanciero'));
+  chart.draw(data, options);
+
+  // Set Data
+  var data = google.visualization.arrayToDataTable([
+    ['Adopción', ''],
+    ['ABRIL', 55],
+    ['MAYO', 49],
+    ['JUNIO', 44],
+    ['JULIO', 60],
+  ]);
+
+  // Set Options
+  var options = {
+    title: 'Adopción',
+    width: 450,
+    height: 300,
+    bar: { groupWidth: '80%' },
+    colors: ['#f5b6cd']
+  };
+
+  // Draw
+  var chart = new google.visualization.ColumnChart(document.getElementById('Adopcion-BienestarFinanciero'));
+  chart.draw(data, options);
+
+
+
+}
