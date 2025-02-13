@@ -37,7 +37,7 @@ function drawChartPersonas() {
   ]);
 
   var options = {
-    backgroundColor: 'transparent',
+    title: 'Desembolsos',
     width: 450,
     height: 300,
     bar: { groupWidth: '80%' },
