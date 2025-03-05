@@ -7,7 +7,7 @@
 }
 
 .background-image {
-    position: absolute;
+    position: fixed;
     transform: rotate(325deg);
     left: -140px;
     top: 200px;
