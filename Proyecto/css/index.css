@@ -62,7 +62,16 @@
     border: none;
     font-weight: bold;
 }
-
+.btn-anclas {
+    outline: none; /* Elimina el borde predeterminado en el estado focus */
+}
+.btn-anclas:hover,
+.btn-anclas:active,
+.btn-anclas:focus {
+    color: #ffc800; /* Usa el mismo amarillo de la página */
+    text-decoration: underline;
+    outline: none; /* Asegura que no haya borde en el estado focus */
+}
 .container {
     padding: 0;
     margin: 0%;
