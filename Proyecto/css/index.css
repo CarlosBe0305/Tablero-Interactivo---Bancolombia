@@ -182,4 +182,6 @@ p {
 .chart-container {
     width: 100%;
     box-shadow: 0px 10px 7px #3434345d;
+    background-color: white;
+    margin-bottom: 10px;
 }
