@@ -55,11 +55,12 @@ h4 {
 .form-check-label {
     font-weight: bold;
 }
-.navbar-label {
+.navbar-hidden {
     margin-left: 2%;
+    font-weight: bold;
 }
 @media (min-width: 992px) {
-    .navbar-expand-lg .navbar-label {
+    .navbar-expand-lg .navbar-hidden {
         display: none;
     }
 }

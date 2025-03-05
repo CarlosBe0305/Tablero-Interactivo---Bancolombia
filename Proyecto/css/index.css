@@ -185,3 +185,6 @@ p {
     background-color: white;
     margin-bottom: 10px;
 }
+.form-select {
+    border-radius: 10px;
+}

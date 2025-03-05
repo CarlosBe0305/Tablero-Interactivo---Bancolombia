@@ -30,8 +30,8 @@
         </div>
         <div id="header-3">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <h2 class="navbar-label" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false">Categoría</h2>
+                <h2 class="navbar-hidden" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false">Resultados</h2>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -52,24 +52,33 @@
                             <button type="button" class="btn btn-secondary">Así estamos cumpliendo este 2025</button>
                         </li>
                     </ul>
+                </div>
             </nav>
         </div>
-        </div>
         <div class="container-fluid" id="header-4">
-            <nav class="nav ">
-                <ul class="nav nav-tabs">
+            <nav class="navbar navbar-expand-lg">
 
-                    <li class="nav-item">
-                        <a href="Resultados/Baap.html" class="btn active">Banking as a Platform - BaaP</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="Resultados/Baas.html" class="btn">Banking as a Service - BaaS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="Resultados/Caas.html" class="btn">Open Data - CaaS</a>
-                    </li>
+                <select class="form-select navbar-hidden col-5" aria-expanded="false" aria-label="Default select example">
+                    <option selected value="1">Banking as a Platform - BaaP</option>
+                    <option value="2">Banking as a Service - BaaS</option>
+                    <option value="3">Open Data - CaaS</option>
+                </select>
+                <div class="collapse navbar-collapse">
 
-                </ul>
+                    <ul class="nav nav-tabs">
+
+                        <li class="nav-item">
+                            <a href="Resultados/Baap.html" class="btn active">Banking as a Platform - BaaP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Resultados/Baas.html" class="btn">Banking as a Service - BaaS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Resultados/Caas.html" class="btn">Open Data - CaaS</a>
+                        </li>
+
+                    </ul>
+                </div>
             </nav>
             <div id="check-graficos">
                 <div class="form-check">
