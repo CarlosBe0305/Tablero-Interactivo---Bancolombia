@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -12,318 +12,291 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top justify-content-center">
-        <div class="container-fluid" id="header">
-            <a class="navbar-brand" id="return" href="#"><img src="images/Atras.png" title="return" height="25"></a>
-            <a class="navbar-brand" id="Logo1" href="#"><img src="images/Bancolombia_2021_Blanco.webp"
-                    alt="Bancolombia Logo" title="Bancolombia Logo" height="30"></a>
-        </div>
-        <div class="container-fluid" id="header-2">
-            <a class="navbar-brand" href="#">
-                <h2 class="text-left">Boletín</h2>
-                <h1>Ecosistemas</h1>
-            </a>
-            <a class="navbar-brand" href="#">
-                <h3>Edición</h3>
-                <h4 class="text-right">Fecha</h4>
-            </a>
-        </div>
-        <div id="header-3">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <h2 class="navbar-hidden" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false">Resultados</h2>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="nav mx-auto">
-                        <li class="nav-item">
-                            <a href="#" class="btn btn-primary">Resultados</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/automatizacion.html" class="btn btn-secondary">Indicador de Automatización</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="btn btn-secondary">Hechos Relevantes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="btn btn-secondary">Así estamos cumpliendo este 2025</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="container-fluid" id="header-4">
-            <nav class="navbar navbar-expand-lg">
-
-                <select id="sectionSelect" class="form-select navbar-hidden col-5" aria-expanded="false" aria-label="Default select example">
-                    <option selected value="1" data-target="#BaaP">Banking as a Platform - BaaP</option>
-                    <option value="2" data-target="#BaaS">Banking as a Service - BaaS</option>
-                    <option value="3" data-target="#CaaS">Open Data - CaaS</option>
-                </select>
-                <div class="collapse navbar-collapse">
-
-                    <ul class="nav nav-tabs">
-
-                        <li class="nav-item">
-                            <a href="#BaaP" class="btn-anclas btn active" id="linkBaaP">Banking as a Platform - BaaP</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#BaaS" class="btn-anclas btn" id="linkBaaS">Banking as a Service - BaaS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#CaaS" class="btn-anclas btn" id="linkCaaS">Open Data - CaaS</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </nav>
-            <div id="check-graficos">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                        Ver gráficos anuales
-                    </label>
+    <header>
+        <nav class="navbar fixed-top justify-content-center" role="navigation">
+            <div class="container-fluid" id="header">
+                <a class="navbar-brand" id="return" href="#" tabindex="0"><img src="images/Atras.png" title="Regresar" height="25" alt="Regresar"></a>
+                <a class="navbar-brand" id="Logo1" href="#" tabindex="0"><img src="images/Bancolombia_2021_Blanco.webp"
+                        alt="Logo de Bancolombia" title="Logo de Bancolombia" height="30"></a>
+            </div>
+            <div class="container-fluid" id="header-2">
+                <a class="navbar-brand" href="#" tabindex="0">
+                    <h2 class="text-left">Boletín</h2>
+                    <h1>Ecosistemas</h1>
+                </a>
+                <a class="navbar-brand" href="#" tabindex="0">
+                    <h3>Edición</h3>
+                    <h4 class="text-right">Fecha</h4>
+                </a>
+            </div>
+            <div id="header-3">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <h2 class="navbar-hidden" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false">Resultados</h2>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation" tabindex="0">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav mx-auto">
+                            <li class="nav-item">
+                                <a href="#" class="btn btn-primary" tabindex="0">Resultados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="pages/automatizacion.html" class="btn btn-secondary" tabindex="0">Indicador de Automatización</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="btn btn-secondary" tabindex="0">Hechos Relevantes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="btn btn-secondary" tabindex="0">Así estamos cumpliendo este 2025</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="container-fluid" id="header-4">
+                <nav class="navbar navbar-expand-lg">
+                    <select id="sectionSelect" class="form-select navbar-hidden col-5" aria-expanded="false" aria-label="Seleccionar sección" tabindex="0">
+                        <option selected value="1" data-target="#BaaP">Banking as a Platform - BaaP</option>
+                        <option value="2" data-target="#BaaS">Banking as a Service - BaaS</option>
+                        <option value="3" data-target="#CaaS">Open Data - CaaS</option>
+                    </select>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a href="#BaaP" class="btn-anclas btn active" id="linkBaaP" tabindex="0">Banking as a Platform - BaaP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#BaaS" class="btn-anclas btn" id="linkBaaS" tabindex="0">Banking as a Service - BaaS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#CaaS" class="btn-anclas btn" id="linkCaaS" tabindex="0">Open Data - CaaS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div id="check-graficos">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" tabindex="0">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Ver gráficos anuales
+                        </label>
+                    </div>
                 </div>
             </div>
-
-        </div>
-    </nav>
-    <img height="700" class="background-image"
-        src="https://www.bancolombia.com/wcm/connect/www.bancolombia.com-26918/c249eedd-ac3f-4a38-82fc-f088697387d6/trazoIzquierdo.svg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_K9HC1202P86O40QTNS9EAE1S47-c249eedd-ac3f-4a38-82fc-f088697387d6-oEYVfaO"
-        alt="">
-    <div class="container" id="BaaP">
-        <h2>Banking as a Platform - BaaP</h2>
-        <h1 class="yellow-h1"><b>Tu360</b>Inmobiliario</h1>
-        <div class="content">
-            <div class="panel">
-                <h4>Disponibilidad</h4>
-                <div class="panel-content">
-                    <p>Meta: <b>XX.XX%</b> <br>
-                        Ejecución: <b>XX.XX%</b>
-                    </p>
-                    <div class="progress mx-auto">
-                        <div class="row container-fluid">
-                            <div class="col bar-progress">XXX%</div>
-                            <div class="col">Reto 2024</div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div>
-                <h3 class="Categoria" id="Personas">Personas</h3>
-                <div class=" row container-fluid">
-                    <div class="col">
-                        <div class="panel">
-                            <h4>Desembolsos Personas</h4>
-                            <div class="panel-content">
-                                <p>Meta: <b>XXX.XXX Mil</b> <br>
-                                    Ejecución: <b>XXX.XXX Mil</b>
-                                </p>
-                                <div class="progress mx-auto">
-                                    <div class="row container-fluid">
-                                        <div class="col bar-progress">XXX%</div>
-                                        <div class="col">Reto 2024</div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <h4>Desembolsos Constructor</h4>
-                            <div class="panel-content">
-                                <p>Meta: <b>XXX.XXX Mil</b> <br>
-                                    Ejecución: <b>XXX.XXX Mil</b>
-                                </p>
-                                <div class="progress mx-auto">
-                                    <div class="row container-fluid">
-                                        <div class="col bar-progress">XXX%</div>
-                                        <div class="col">Reto 2024</div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col">
-
-                        <div id="Aprobaciones-Personas" class="chart-container"></div>
-                    </div>
-                    <div class="col">
-                        <div id="Desembolsos-Personas" class="chart-container"></div>
-                    </div>
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </div>
-    <div class="container" id="BaaS">
-        <h2>Banking as a Service - BaaS</h2>
-        <div class="content">
-            <div class="panel">
-                <h4>Disponibilidad</h4>
-                <div class="panel-content">
-                    <p>Meta: <b>XX.XX%</b> <br>
-                        Ejecución: <b>XX.XX%</b>
-                    </p>
-                    <div class="progress mx-auto">
-                        <div class="row container-fluid">
-                            <div class="col bar-progress">XXX%</div>
-                            <div class="col">Reto 2024</div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <h1 class="blue-h1">Billetera Digital</h1>
-        <div class="content">
-
-            <div>
-                <div class=" row container-fluid">
-                    <div class="col">
-                        <div class="panel">
-                            <h4>Transacciones</h4>
-                            <div class="panel-content">
-                                <p>Meta: <b>XXX.XXX Mil</b> <br>
-                                    Ejecución: <b>XXX.XXX Mil</b>
-                                </p>
-                                <div class="progress mx-auto">
-                                    <div class="row container-fluid">
-                                        <div class="col bar-progress">XXX%</div>
-                                        <div class="col">Reto 2024</div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <h4>Flujos Movilizados</h4>
-                            <div class="panel-content">
-                                <p>Meta: <b>XXX.XXX Mil</b> <br>
-                                    Ejecución: <b>XXX.XXX Mil</b>
-                                </p>
-                                <div class="progress mx-auto">
-                                    <div class="row container-fluid">
-                                        <div class="col bar-progress">XXX%</div>
-                                        <div class="col">Reto 2024</div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div class="panel">
-                            <h4>Comisiones</h4>
-                            <div class="panel-content">
-                                <p>Meta: <b>XXX.XXX Mil</b> <br>
-                                    Ejecución: <b>XXX.XXX Mil</b>
-                                </p>
-                                <div class="progress mx-auto">
-                                    <div class="row container-fluid">
-                                        <div class="col bar-progress">XXX%</div>
-                                        <div class="col">Reto 2024</div>
-                                    </div>
-                                </div>
-
+        </nav>
+    </header>
+    <main>
+        <img height="700" class="background-image"
+            src="https://www.bancolombia.com/wcm/connect/www.bancolombia.com-26918/c249eedd-ac3f-4a38-82fc-f088697387d6/trazoIzquierdo.svg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_K9HC1202P86O40QTNS9EAE1S47-c249eedd-ac3f-4a38-82fc-f088697387d6-oEYVfaO"
+            alt="Imagen de fondo">
+        <section class="container" id="BaaP">
+            <h2>Banking as a Platform - BaaP</h2>
+            <h1 class="yellow-h1"><b>Tu360</b>Inmobiliario</h1>
+            <div class="content">
+                <div class="panel">
+                    <h4>Disponibilidad</h4>
+                    <div class="panel-content">
+                        <p>Meta: <b>XX.XX%</b> <br>
+                            Ejecución: <b>XX.XX%</b>
+                        </p>
+                        <div class="progress mx-auto">
+                            <div class="row container-fluid">
+                                <div class="col bar-progress">XXX%</div>
+                                <div class="col">Reto 2024</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-
-                        <div id="Transacciones-Billetera" class="chart-container"></div>
-                    </div>
-                    <div class="col">
-                        <div id="Comisiones-Billetera" class="chart-container"></div>
-                    </div>
                 </div>
-
-
-            </div>
-
-        </div>
-
-    </div>
-    <div class="container" id="CaaS">
-        <h2>Open Data - CaaS</h2>
-        <h1 class="pink-h1">Bienestar Financiero</h1>
-        <div class="content">
-            <div class="panel">
-                <h4>Disponibilidad</h4>
-                <div class="panel-content">
-                    <p>Meta: <b>XX.XX%</b> <br>
-                        Ejecución: <b>XX.XX%</b>
-                    </p>
-                    <div class="progress mx-auto">
-                        <div class="row container-fluid">
-                            <div class="col bar-progress">XXX%</div>
-                            <div class="col">Reto 2024</div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div>
-                <div class=" row container-fluid">
-                    <div class="col">
-                        <div class="panel">
-                            <h4>Desembolsos Personas</h4>
-                            <div class="panel-content">
-                                <p>Meta: <b>XXX.XXX Mil</b> <br>
-                                    Ejecución: <b>XXX.XXX Mil</b>
-                                </p>
-                                <div class="progress mx-auto">
-                                    <div class="row container-fluid">
-                                        <div class="col bar-progress">XXX%</div>
-                                        <div class="col">Reto 2024</div>
+                <div>
+                    <h3 class="Categoria" id="Personas">Personas</h3>
+                    <div class="row container-fluid">
+                        <div class="col">
+                            <div class="panel">
+                                <h4>Desembolsos Personas</h4>
+                                <div class="panel-content">
+                                    <p>Meta: <b>XXX.XXX Mil</b> <br>
+                                        Ejecución: <b>XXX.XXX Mil</b>
+                                    </p>
+                                    <div class="progress mx-auto">
+                                        <div class="row container-fluid">
+                                            <div class="col bar-progress">XXX%</div>
+                                            <div class="col">Reto 2024</div>
+                                        </div>
                                     </div>
                                 </div>
-
                             </div>
-                        </div>
-                        <div class="panel">
-                            <h4>Desembolsos Constructor</h4>
-                            <div class="panel-content">
-                                <p>Meta: <b>XXX.XXX Mil</b> <br>
-                                    Ejecución: <b>XXX.XXX Mil</b>
-                                </p>
-                                <div class="progress mx-auto">
-                                    <div class="row container-fluid">
-                                        <div class="col bar-progress">XXX%</div>
-                                        <div class="col">Reto 2024</div>
+                            <div class="panel">
+                                <h4>Desembolsos Constructor</h4>
+                                <div class="panel-content">
+                                    <p>Meta: <b>XXX.XXX Mil</b> <br>
+                                        Ejecución: <b>XXX.XXX Mil</b>
+                                    </p>
+                                    <div class="progress mx-auto">
+                                        <div class="row container-fluid">
+                                            <div class="col bar-progress">XXX%</div>
+                                            <div class="col">Reto 2024</div>
+                                        </div>
                                     </div>
                                 </div>
-
                             </div>
-
+                        </div>
+                        <div class="col">
+                            <div id="Aprobaciones-Personas" class="chart-container" aria-label="Gráfico de aprobaciones de personas" tabindex="0"></div>
+                        </div>
+                        <div class="col">
+                            <div id="Desembolsos-Personas" class="chart-container" aria-label="Gráfico de desembolsos de personas" tabindex="0"></div>
                         </div>
                     </div>
-                    <div class="col">
-
-                        <div id="UsuariosAct-BienestarFinanciero" class="chart-container"></div>
-                    </div>
-                    <div class="col">
-                        <div id="Adopcion-BienestarFinanciero" class="chart-container"></div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="BaaS">
+            <h2>Banking as a Service - BaaS</h2>
+            <div class="content">
+                <div class="panel">
+                    <h4>Disponibilidad</h4>
+                    <div class="panel-content">
+                        <p>Meta: <b>XX.XX%</b> <br>
+                            Ejecución: <b>XX.XX%</b>
+                        </p>
+                        <div class="progress mx-auto">
+                            <div class="row container-fluid">
+                                <div class="col bar-progress">XXX%</div>
+                                <div class="col">Reto 2024</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-
             </div>
-
-        </div>
-
-    </div>
+            <h1 class="blue-h1">Billetera Digital</h1>
+            <div class="content">
+                <div>
+                    <div class="row container-fluid">
+                        <div class="col">
+                            <div class="panel">
+                                <h4>Transacciones</h4>
+                                <div class="panel-content">
+                                    <p>Meta: <b>XXX.XXX Mil</b> <br>
+                                        Ejecución: <b>XXX.XXX Mil</b>
+                                    </p>
+                                    <div class="progress mx-auto">
+                                        <div class="row container-fluid">
+                                            <div class="col bar-progress">XXX%</div>
+                                            <div class="col">Reto 2024</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <h4>Flujos Movilizados</h4>
+                                <div class="panel-content">
+                                    <p>Meta: <b>XXX.XXX Mil</b> <br>
+                                        Ejecución: <b>XXX.XXX Mil</b>
+                                    </p>
+                                    <div class="progress mx-auto">
+                                        <div class="row container-fluid">
+                                            <div class="col bar-progress">XXX%</div>
+                                            <div class="col">Reto 2024</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <h4>Comisiones</h4>
+                                <div class="panel-content">
+                                    <p>Meta: <b>XXX.XXX Mil</b> <br>
+                                        Ejecución: <b>XXX.XXX Mil</b>
+                                    </p>
+                                    <div class="progress mx-auto">
+                                        <div class="row container-fluid">
+                                            <div class="col bar-progress">XXX%</div>
+                                            <div class="col">Reto 2024</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div id="Transacciones-Billetera" class="chart-container" aria-label="Gráfico de transacciones de billetera" tabindex="0"></div>
+                        </div>
+                        <div class="col">
+                            <div id="Comisiones-Billetera" class="chart-container" aria-label="Gráfico de comisiones de billetera" tabindex="0"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="CaaS">
+            <h2>Open Data - CaaS</h2>
+            <h1 class="pink-h1">Bienestar Financiero</h1>
+            <div class="content">
+                <div class="panel">
+                    <h4>Disponibilidad</h4>
+                    <div class="panel-content">
+                        <p>Meta: <b>XX.XX%</b> <br>
+                            Ejecución: <b>XX.XX%</b>
+                        </p>
+                        <div class="progress mx-auto">
+                            <div class="row container-fluid">
+                                <div class="col bar-progress">XXX%</div>
+                                <div class="col">Reto 2024</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row container-fluid">
+                        <div class="col">
+                            <div class="panel">
+                                <h4>Desembolsos Personas</h4>
+                                <div class="panel-content">
+                                    <p>Meta: <b>XXX.XXX Mil</b> <br>
+                                        Ejecución: <b>XXX.XXX Mil</b>
+                                    </p>
+                                    <div class="progress mx-auto">
+                                        <div class="row container-fluid">
+                                            <div class="col bar-progress">XXX%</div>
+                                            <div class="col">Reto 2024</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel">
+                                <h4>Desembolsos Constructor</h4>
+                                <div class="panel-content">
+                                    <p>Meta: <b>XXX.XXX Mil</b> <br>
+                                        Ejecución: <b>XXX.XXX Mil</b>
+                                    </p>
+                                    <div class="progress mx-auto">
+                                        <div class="row container-fluid">
+                                            <div class="col bar-progress">XXX%</div>
+                                            <div class="col">Reto 2024</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div id="UsuariosAct-BienestarFinanciero" class="chart-container" aria-label="Gráfico de usuarios activos de bienestar financiero" tabindex="0"></div>
+                        </div>
+                        <div class="col">
+                            <div id="Adopcion-BienestarFinanciero" class="chart-container" aria-label="Gráfico de adopción de bienestar financiero" tabindex="0"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- contenido del footer -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/index.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-<script src="https://www.gstatic.com/charts/loader.js"></script>
-<script src="js/index.js"></script>
 </html>
