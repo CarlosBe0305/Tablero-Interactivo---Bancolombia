@@ -4,6 +4,21 @@ google.charts.setOnLoadCallback(drawChartBilletera);
 google.charts.setOnLoadCallback(drawChartBienestarFinanciero);
 
 // Your Function
+document.getElementById('sectionSelect').addEventListener('change', function() {
+  var target = this.options[this.selectedIndex].getAttribute('data-target');
+  if (target) {
+      window.location.hash = target;
+  }
+});
+document.querySelectorAll('.nav-item .btn').forEach(function(link) {
+  link.addEventListener('click', function() {
+      document.querySelectorAll('.nav-item .btn').forEach(function(btn) {
+          btn.classList.remove('active');
+      });
+      this.classList.add('active');
+  });
+});
+
 function drawChartPersonas() {
 
   // Set Data
@@ -149,17 +164,3 @@ function drawChartBienestarFinanciero() {
 
 
 }
-document.getElementById('sectionSelect').addEventListener('change', function() {
-  var target = this.options[this.selectedIndex].getAttribute('data-target');
-  if (target) {
-      window.location.hash = target;
-  }
-});
-document.querySelectorAll('.nav-item .btn').forEach(function(link) {
-  link.addEventListener('click', function() {
-      document.querySelectorAll('.nav-item .btn').forEach(function(btn) {
-          btn.classList.remove('active');
-      });
-      this.classList.add('active');
-  });
-});
