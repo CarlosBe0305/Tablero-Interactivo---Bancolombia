@@ -31,9 +31,9 @@ footer {
     color: white;
     align-items: center;
     padding: 1%;
-    width: 100%;
+    width: 100% !important;
     z-index: 3;
-    margin: 0;
+    margin: 10% 0 0 0 ;
     right: 0;
     box-sizing: content-box;
     position: relative; /* Default position for small screens */
@@ -43,6 +43,7 @@ footer {
     footer {
         position: fixed;
         bottom: 0;
+        margin: 0;
     }
 }
 
