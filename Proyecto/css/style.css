@@ -40,6 +40,9 @@ footer {
 }
 
 @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-hidden {
+        display: none;
+    }
     footer {
         position: fixed;
         bottom: 0;
@@ -172,12 +175,6 @@ h4 {
 .navbar-hidden {
     margin-left: 2%;
     font-weight: bold;
-}
-
-@media (min-width: 992px) {
-    .navbar-expand-lg .navbar-hidden {
-        display: none;
-    }
 }
 
 :target::before {
