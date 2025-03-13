@@ -39,7 +39,9 @@
     font-weight: bold;
     padding: 2% 4%;
 }
-
+.container {
+    top: 250px;
+}
 .content {
     margin: 0 2%;
     padding: 2% 2%;

@@ -135,7 +135,6 @@ h4 {
 }
 
 .container {
-    top: 250px;
     z-index: 2;
     position: relative;
 }
