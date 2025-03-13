@@ -18,6 +18,34 @@ body{
     overflow-x: hidden;
 }
 
+footer{
+    background-color: #343434;
+    color: white;
+    align-items: center;
+    padding: 1%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+    margin: 0;
+    right: 0;
+    box-sizing: content-box;
+}
+footer p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.footer-links{
+    border-left:2px solid white;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.footer-links a:hover{
+    text-decoration:underline;
+}
 #return{
     padding: 0 1%;
 }
