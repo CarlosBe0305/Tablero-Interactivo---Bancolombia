@@ -33,7 +33,8 @@ function drawChartPersonas() {
   // Set Options
   var options = {
     title: 'Aprobaciones',
-    width: 450,
+    width: '80%',
+    minWidth: 250,
     height: 300,
     bar: { groupWidth: '80%' },
     colors: ['#7e63a8', '#5fc4e1']
@@ -53,7 +54,8 @@ function drawChartPersonas() {
 
   var options = {
     title: 'Desembolsos',
-    width: 450,
+    width: '80%',
+    minWidth: 250,
     height: 300,
     bar: { groupWidth: '80%' },
     isStacked: true,
@@ -79,7 +81,8 @@ function drawChartBilletera() {
   // Set Options
   var options = {
     title: 'Transacciones',
-    width: 450,
+    width: '80%',
+    minWidth: 250,
     height: 300,
     bar: { groupWidth: '80%' },
     colors: ['#5fc4e1']
@@ -101,7 +104,8 @@ function drawChartBilletera() {
   // Set Options
   var options = {
     title: 'Comisiones',
-    width: 450,
+    width: '80%',
+    minWidth: 250,
     height: 300,
     bar: { groupWidth: '80%' },
     colors: ['#5fc4e1']
@@ -129,7 +133,8 @@ function drawChartBienestarFinanciero() {
   // Set Options
   var options = {
     title: 'Usuarios Activos',
-    width: 450,
+    width: '80%',
+    minWidth: 250,
     height: 300,
     bar: { groupWidth: '80%' },
     colors: ['#f5b6cd']
@@ -151,7 +156,8 @@ function drawChartBienestarFinanciero() {
   // Set Options
   var options = {
     title: 'Adopción',
-    width: 450,
+    width: '80%',
+    minWidth: 250,
     height: 300,
     bar: { groupWidth: '80%' },
     colors: ['#f5b6cd']
