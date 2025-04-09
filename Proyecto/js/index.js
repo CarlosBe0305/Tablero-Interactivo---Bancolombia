@@ -19,6 +19,8 @@ document.querySelectorAll('.nav-item .btn').forEach(function(link) {
   });
 });
 
+
+
 function drawChartPersonas() {
 
   // Set Data
@@ -36,6 +38,7 @@ function drawChartPersonas() {
     width: '80%',
     minWidth: 250,
     height: 300,
+    backgroundColor: 'transparent',
     bar: { groupWidth: '80%' },
     colors: ['#7e63a8', '#5fc4e1']
   };
@@ -56,7 +59,7 @@ function drawChartPersonas() {
     title: 'Desembolsos',
     width: '80%',
     minWidth: 250,
-    height: 300,
+    height: 300, 
     bar: { groupWidth: '80%' },
     isStacked: true,
     colors: ['#7e63a8', '#5fc4e1']
