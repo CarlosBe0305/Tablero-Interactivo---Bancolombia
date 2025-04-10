@@ -9,7 +9,7 @@ function Tablero() {
   return (
     <div style={{ width: "100%", height: "100vh" }}>
       <iframe
-        src="/tablero.html" // Ruta al archivo HTML externo
+        src="/pages/tablero.html" // Ruta al archivo HTML externo
         style={{ width: "100%", height: "100%", border: "none" }}
         title="Contenido Externo"
       ></iframe>
